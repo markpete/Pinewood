@@ -1,0 +1,10 @@
+.iconSet {
+    float: right;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+table tr td .iconSet { display:none;}
+table tr:hover td .iconSet { display:inline-block;}

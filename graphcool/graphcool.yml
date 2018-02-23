@@ -1,0 +1,19 @@
+types: ./types.graphql
+permissions:
+  - operation: "*"
+  
+# added by facebook template: (please uncomment)
+# functions:
+#   facebookAuthentication:
+#     handler:
+#       code:
+#         src: ./src/facebook/facebookAuthentication.ts
+#     type: resolver
+#     schema: ./src/facebook/facebookAuthentication.graphql
+#   loggedInUser:
+#     handler:
+#       code:
+#         src: ./src/facebook/loggedInUser.ts
+#     type: resolver
+#     schema: ./src/facebook/loggedInUser.graphql
+
